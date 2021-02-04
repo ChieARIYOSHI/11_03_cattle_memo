@@ -1,0 +1,98 @@
+body {
+  font-family: Roboto, "ヒラギノ角ゴ Pro W3", "メイリオ", "sans-serif", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体";
+  background-color: #f6ecf7;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top_main {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 180px;
+  height: 180px;
+  margin: 30px 84px;
+}
+
+.top_main h2, .top_main h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+fieldset {
+  border-style: none;
+}
+
+.index {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.index li {
+  margin: 10px 30px;
+}
+
+.register_btn {
+  width: 180px;
+  height: 30px;
+  border-radius: 30px;
+  color: #f6ecf7;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: #FF6ED8;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 70px;
+}
+
+.register_btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.index p {
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+}
+
+.back_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index a {
+  width: 180px;
+  height: 30px;
+  border-radius: 30px;
+  color: #f6ecf7;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: #FF6ED8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.index a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  cursor: hand;
+}
